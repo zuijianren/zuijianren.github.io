@@ -1,0 +1,1 @@
+import{_ as s,c as a,o as n,O as l}from"./chunks/framework.bc5c4927.js";const i=JSON.parse('{"title":"多态","description":"","frontmatter":{},"headers":[],"relativePath":"java/多态.md"}'),p={name:"java/多态.md"},o=l("",25),e=[o];function t(c,r,y,D,F,A){return n(),a("div",null,e)}const u=s(p,[["render",t]]);export{i as __pageData,u as default};
