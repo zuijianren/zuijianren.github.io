@@ -1,0 +1,1 @@
+import{_ as s,o as a,c as n,O as l}from"./chunks/framework.a9f788d3.js";const i=JSON.parse('{"title":"序列化","description":"","frontmatter":{},"headers":[],"relativePath":"java/基础/序列化.md"}'),p={name:"java/基础/序列化.md"},o=l("",17),e=[o];function t(c,r,D,y,A,C){return a(),n("div",null,e)}const u=s(p,[["render",t]]);export{i as __pageData,u as default};

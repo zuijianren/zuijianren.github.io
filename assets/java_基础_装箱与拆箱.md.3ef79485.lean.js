@@ -1,0 +1,1 @@
+import{_ as s,o as n,c as a,O as l}from"./chunks/framework.a9f788d3.js";const C=JSON.parse('{"title":"装箱与拆箱","description":"","frontmatter":{},"headers":[],"relativePath":"java/基础/装箱与拆箱.md"}'),p={name:"java/基础/装箱与拆箱.md"},o=l("",3),e=[o];function t(c,r,y,D,F,i){return n(),a("div",null,e)}const _=s(p,[["render",t]]);export{C as __pageData,_ as default};
