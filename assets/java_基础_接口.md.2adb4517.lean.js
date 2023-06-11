@@ -1,0 +1,1 @@
+import{_ as e,o,c as t,O as c}from"./chunks/framework.a9f788d3.js";const h=JSON.parse('{"title":"接口类","description":"","frontmatter":{},"headers":[],"relativePath":"java/基础/接口.md"}'),d={name:"java/基础/接口.md"},a=c("",3),l=[a];function i(_,r,s,n,p,m){return o(),t("div",null,l)}const f=e(d,[["render",i]]);export{h as __pageData,f as default};

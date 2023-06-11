@@ -1,0 +1,1 @@
+import{_ as s,o as a,c as e,O as o}from"./chunks/framework.a9f788d3.js";const y=JSON.parse('{"title":"properties","description":"","frontmatter":{},"headers":[],"relativePath":"java/基础/Properties.md"}'),p={name:"java/基础/Properties.md"},r=o("",10),t=[r];function l(n,c,i,d,D,F){return a(),e("div",null,t)}const A=s(p,[["render",l]]);export{y as __pageData,A as default};
