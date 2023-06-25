@@ -1,1 +1,0 @@
-import{_ as s,o as n,c as a,O as l}from"./chunks/framework.a9f788d3.js";const C=JSON.parse('{"title":"字符串","description":"","frontmatter":{},"headers":[],"relativePath":"java/基础/字符串.md"}'),p={name:"java/基础/字符串.md"},o=l("",9),t=[o];function e(r,c,i,y,A,F){return n(),a("div",null,t)}const g=s(p,[["render",e]]);export{C as __pageData,g as default};

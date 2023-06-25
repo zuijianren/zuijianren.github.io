@@ -1,0 +1,1 @@
+import{_ as a,o as s,c as e,O as l}from"./chunks/framework.a9f788d3.js";const A=JSON.parse('{"title":"时间","description":"","frontmatter":{},"headers":[],"relativePath":"modules/java/基础/时间.md"}'),n={name:"modules/java/基础/时间.md"},o=l("",53),t=[o];function p(c,r,i,D,y,d){return s(),e("div",null,t)}const m=a(n,[["render",p]]);export{A as __pageData,m as default};

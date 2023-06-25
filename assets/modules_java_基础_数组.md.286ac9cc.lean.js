@@ -1,0 +1,1 @@
+import{_ as s,o as a,c as n,O as l}from"./chunks/framework.a9f788d3.js";const i=JSON.parse('{"title":"数组","description":"","frontmatter":{},"headers":[],"relativePath":"modules/java/基础/数组.md"}'),o={name:"modules/java/基础/数组.md"},p=l("",5),t=[p];function e(c,r,y,D,A,C){return a(),n("div",null,t)}const E=s(o,[["render",e]]);export{i as __pageData,E as default};

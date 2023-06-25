@@ -1,1 +1,0 @@
-import{_ as s,o as a,c as l,O as o}from"./chunks/framework.a9f788d3.js";const i=JSON.parse('{"title":"集合和泛型","description":"","frontmatter":{},"headers":[],"relativePath":"java/基础/集合和泛型.md"}'),n={name:"java/基础/集合和泛型.md"},p=o("",37),t=[p];function e(c,r,D,y,F,A){return a(),l("div",null,t)}const d=s(n,[["render",e]]);export{i as __pageData,d as default};

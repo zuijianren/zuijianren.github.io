@@ -1,1 +1,0 @@
-import{_ as a,o as s,c as l,O as n}from"./chunks/framework.a9f788d3.js";const h=JSON.parse('{"title":"内部类","description":"","frontmatter":{},"headers":[],"relativePath":"java/基础/内部类.md"}'),o={name:"java/基础/内部类.md"},e=n("",18),p=[e];function t(c,r,i,D,y,F){return s(),l("div",null,p)}const A=a(o,[["render",t]]);export{h as __pageData,A as default};

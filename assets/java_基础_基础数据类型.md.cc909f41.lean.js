@@ -1,1 +1,0 @@
-import{_ as t,o as d,c as e,O as r}from"./chunks/framework.a9f788d3.js";const u=JSON.parse('{"title":"基础数据类型","description":"","frontmatter":{},"headers":[],"relativePath":"java/基础/基础数据类型.md"}'),a={name:"java/基础/基础数据类型.md"},o=r("",3),_=[o];function n(s,c,l,h,i,p){return d(),e("div",null,_)}const f=t(a,[["render",n]]);export{u as __pageData,f as default};

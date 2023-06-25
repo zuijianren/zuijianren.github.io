@@ -1,1 +1,0 @@
-import{_ as s,o as n,c as a,O as l}from"./chunks/framework.a9f788d3.js";const p="/assets/throwable.813f3c42.png",u=JSON.parse('{"title":"异常","description":"","frontmatter":{},"headers":[],"relativePath":"java/基础/异常类.md"}'),o={name:"java/基础/异常类.md"},t=l("",25),e=[t];function c(r,D,y,F,A,C){return n(),a("div",null,e)}const d=s(o,[["render",c]]);export{u as __pageData,d as default};

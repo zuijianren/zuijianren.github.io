@@ -1,1 +1,0 @@
-import{_ as e,o,c,O as a}from"./chunks/framework.a9f788d3.js";const m=JSON.parse('{"title":"命名规范","description":"","frontmatter":{},"headers":[],"relativePath":"java/基础/命名规范.md"}'),t={name:"java/基础/命名规范.md"},d=a("",5),s=[d];function i(l,r,_,n,h,u){return o(),c("div",null,s)}const f=e(t,[["render",i]]);export{m as __pageData,f as default};

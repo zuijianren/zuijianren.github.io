@@ -1,0 +1,39 @@
+import{_ as s,o as n,c as a,O as l}from"./chunks/framework.a9f788d3.js";const C=JSON.parse('{"title":"字符串","description":"","frontmatter":{},"headers":[],"relativePath":"modules/java/基础/字符串.md"}'),p={name:"modules/java/基础/字符串.md"},o=l(`<h1 id="字符串" tabindex="-1">字符串 <a class="header-anchor" href="#字符串" aria-label="Permalink to &quot;字符串&quot;">​</a></h1><h2 id="string" tabindex="-1">String <a class="header-anchor" href="#string" aria-label="Permalink to &quot;String&quot;">​</a></h2><blockquote><p>字符串是常量，在创建之后不能被修改, 实际是一个被 final 修饰的数组</p></blockquote><h2 id="stringbuilder" tabindex="-1">StringBuilder <a class="header-anchor" href="#stringbuilder" aria-label="Permalink to &quot;StringBuilder&quot;">​</a></h2><blockquote><p>底层也是一个数组<br> 但是没有被 final 修饰，可以改变长度<br> StringBuilder 在内存中始终是一个数组，占用空间少，效率高，如果超出了 StringBuilder 的容量，会自动的扩容<br><strong>线程不安全</strong></p></blockquote><h2 id="stringbuffer" tabindex="-1">StringBuffer <a class="header-anchor" href="#stringbuffer" aria-label="Permalink to &quot;StringBuffer&quot;">​</a></h2><blockquote><p>类似 StringBuilder<br><strong>线程安全</strong></p></blockquote><h2 id="string-常用方法" tabindex="-1">String 常用方法 <a class="header-anchor" href="#string-常用方法" aria-label="Permalink to &quot;String 常用方法&quot;">​</a></h2><div class="language-java"><button title="Copy Code" class="copy"></button><span class="lang">java</span><pre class="shiki material-theme-palenight"><code><span class="line"><span style="color:#676E95;font-style:italic;">// 返回当前字符串的长度</span></span>
+<span class="line"><span style="color:#C792EA;">int</span><span style="color:#A6ACCD;"> </span><span style="color:#82AAFF;">length</span><span style="color:#89DDFF;">()</span></span>
+<span class="line"></span>
+<span class="line"><span style="color:#676E95;font-style:italic;">// 查找 字符/字符串 在该字符串第一次出现的位置</span></span>
+<span class="line"><span style="color:#C792EA;">int</span><span style="color:#A6ACCD;"> </span><span style="color:#82AAFF;">indexOf</span><span style="color:#89DDFF;">(</span><span style="color:#C792EA;">int</span><span style="color:#A6ACCD;"> ch</span><span style="color:#89DDFF;">)</span></span>
+<span class="line"><span style="color:#C792EA;">int</span><span style="color:#A6ACCD;"> </span><span style="color:#82AAFF;">indexOf</span><span style="color:#89DDFF;">(</span><span style="color:#C792EA;">String</span><span style="color:#A6ACCD;"> str</span><span style="color:#89DDFF;">)</span></span>
+<span class="line"><span style="color:#676E95;font-style:italic;">// 查找 字符/字符串 在该字符串最后一次出现的位置</span></span>
+<span class="line"><span style="color:#C792EA;">int</span><span style="color:#A6ACCD;"> </span><span style="color:#82AAFF;">lastIndexOf</span><span style="color:#89DDFF;">(</span><span style="color:#C792EA;">int</span><span style="color:#A6ACCD;"> ch</span><span style="color:#89DDFF;">)</span></span>
+<span class="line"><span style="color:#C792EA;">int</span><span style="color:#A6ACCD;"> </span><span style="color:#82AAFF;">lastIndexOf</span><span style="color:#89DDFF;">(</span><span style="color:#C792EA;">String</span><span style="color:#A6ACCD;"> str</span><span style="color:#89DDFF;">)</span></span>
+<span class="line"></span>
+<span class="line"><span style="color:#676E95;font-style:italic;">// 获取字符串中指定位置的字符</span></span>
+<span class="line"><span style="color:#C792EA;">char</span><span style="color:#A6ACCD;"> </span><span style="color:#82AAFF;">charAt</span><span style="color:#89DDFF;">(</span><span style="color:#C792EA;">int</span><span style="color:#A6ACCD;"> Index</span><span style="color:#89DDFF;">)</span></span>
+<span class="line"></span>
+<span class="line"></span>
+<span class="line"><span style="color:#676E95;font-style:italic;">// 获取从指定位置开始到结束的子字符串 (包含开始位置, 不包含结束位置)</span></span>
+<span class="line"><span style="color:#C792EA;">String</span><span style="color:#A6ACCD;"> </span><span style="color:#82AAFF;">subString</span><span style="color:#89DDFF;">(</span><span style="color:#C792EA;">int</span><span style="color:#A6ACCD;"> beginIndex</span><span style="color:#89DDFF;">,</span><span style="color:#A6ACCD;"> </span><span style="color:#C792EA;">int</span><span style="color:#A6ACCD;"> endIndex</span><span style="color:#89DDFF;">)</span></span>
+<span class="line"></span>
+<span class="line"><span style="color:#676E95;font-style:italic;">// 将字符串分割为子字符串，返回字符串数组</span></span>
+<span class="line"><span style="color:#C792EA;">String</span><span style="color:#89DDFF;">[]</span><span style="color:#A6ACCD;"> </span><span style="color:#82AAFF;">split</span><span style="color:#89DDFF;">(</span><span style="color:#C792EA;">String</span><span style="color:#A6ACCD;"> regex</span><span style="color:#89DDFF;">)</span></span>
+<span class="line"><span style="color:#C792EA;">String</span><span style="color:#89DDFF;">[]</span><span style="color:#A6ACCD;"> </span><span style="color:#82AAFF;">split</span><span style="color:#89DDFF;">(</span><span style="color:#C792EA;">String</span><span style="color:#A6ACCD;"> regex</span><span style="color:#89DDFF;">,</span><span style="color:#A6ACCD;"> </span><span style="color:#C792EA;">int</span><span style="color:#A6ACCD;"> limit</span><span style="color:#89DDFF;">)</span></span>
+<span class="line"></span>
+<span class="line"><span style="color:#676E95;font-style:italic;">// 返回去除了字符串前后空格的字符串</span></span>
+<span class="line"><span style="color:#C792EA;">String</span><span style="color:#A6ACCD;"> </span><span style="color:#82AAFF;">trim</span><span style="color:#89DDFF;">()</span></span>
+<span class="line"></span>
+<span class="line"><span style="color:#676E95;font-style:italic;">// 将字符串转换为小写</span></span>
+<span class="line"><span style="color:#C792EA;">String</span><span style="color:#A6ACCD;"> </span><span style="color:#82AAFF;">toLowerCase</span><span style="color:#89DDFF;">()</span></span>
+<span class="line"><span style="color:#676E95;font-style:italic;">// 将字符串转换为大写</span></span>
+<span class="line"><span style="color:#C792EA;">String</span><span style="color:#A6ACCD;"> </span><span style="color:#82AAFF;">toUpperCase</span><span style="color:#89DDFF;">()</span></span>
+<span class="line"></span>
+<span class="line"><span style="color:#676E95;font-style:italic;">//  将该字符串转换为byte数组</span></span>
+<span class="line"><span style="color:#C792EA;">byte</span><span style="color:#89DDFF;">[]</span><span style="color:#A6ACCD;"> </span><span style="color:#82AAFF;">getBytes</span><span style="color:#89DDFF;">()</span></span>
+<span class="line"></span>
+<span class="line"><span style="color:#676E95;font-style:italic;">// 将 字符/字符数组 转为字符串</span></span>
+<span class="line"><span style="color:#C792EA;">String</span><span style="color:#A6ACCD;"> </span><span style="color:#82AAFF;">valueOf</span><span style="color:#89DDFF;">(</span><span style="color:#C792EA;">char</span><span style="color:#89DDFF;">[])</span></span>
+<span class="line"><span style="color:#A6ACCD;">String</span><span style="color:#89DDFF;">.</span><span style="color:#82AAFF;">valueOf</span><span style="color:#89DDFF;">(</span><span style="color:#C792EA;">char</span><span style="color:#89DDFF;">)</span></span>
+<span class="line"></span>
+<span class="line"><span style="color:#676E95;font-style:italic;">// 字符转数字</span></span>
+<span class="line"><span style="color:#676E95;font-style:italic;">// 先转为字符串，再由字符串转数字</span></span>
+<span class="line"><span style="color:#A6ACCD;">Integer</span><span style="color:#89DDFF;">.</span><span style="color:#82AAFF;">parseInt</span><span style="color:#89DDFF;">(</span><span style="color:#A6ACCD;">String</span><span style="color:#89DDFF;">.</span><span style="color:#82AAFF;">valueOf</span><span style="color:#89DDFF;">(</span><span style="color:#A6ACCD;">c</span><span style="color:#89DDFF;">))</span></span></code></pre></div>`,9),t=[o];function e(r,c,i,y,A,F){return n(),a("div",null,t)}const d=s(p,[["render",e]]);export{C as __pageData,d as default};

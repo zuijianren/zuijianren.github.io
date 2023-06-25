@@ -1,1 +1,0 @@
-import{_ as a,o as s,c as n,O as e}from"./chunks/framework.a9f788d3.js";const y=JSON.parse('{"title":"常用命令","description":"","frontmatter":{},"headers":[],"relativePath":"linux/常用命令.md"}'),l={name:"linux/常用命令.md"},t=e("",3),o=[t];function c(p,i,r,_,d,h){return s(),n("div",null,o)}const C=a(l,[["render",c]]);export{y as __pageData,C as default};

@@ -1,1 +1,0 @@
-import{_ as a,o as e,c as t,O as o}from"./chunks/framework.a9f788d3.js";const b=JSON.parse('{"title":"IO","description":"","frontmatter":{},"headers":[],"relativePath":"java/基础/IO.md"}'),r={name:"java/基础/IO.md"},i=o("",9),l=[i];function n(c,s,h,d,_,u){return e(),t("div",null,l)}const q=a(r,[["render",n]]);export{b as __pageData,q as default};

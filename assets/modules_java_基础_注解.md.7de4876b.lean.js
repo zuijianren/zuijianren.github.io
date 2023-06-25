@@ -1,0 +1,1 @@
+import{_ as s,o as a,c as n,O as l}from"./chunks/framework.a9f788d3.js";const C=JSON.parse('{"title":"注解","description":"","frontmatter":{},"headers":[],"relativePath":"modules/java/基础/注解.md"}'),o={name:"modules/java/基础/注解.md"},p=l("",14),e=[p];function t(c,r,D,y,F,A){return a(),n("div",null,e)}const u=s(o,[["render",t]]);export{C as __pageData,u as default};
