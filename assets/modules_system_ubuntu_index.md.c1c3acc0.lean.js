@@ -1,0 +1,1 @@
+import{_ as e,o as t,c as a,O as o}from"./chunks/framework.a9f788d3.js";const m=JSON.parse('{"title":"ubuntu","description":"","frontmatter":{},"headers":[],"relativePath":"modules/system/ubuntu/index.md"}'),u={name:"modules/system/ubuntu/index.md"},r=o("",5),n=[r];function s(c,d,i,l,_,h){return t(),a("div",null,n)}const p=e(u,[["render",s]]);export{m as __pageData,p as default};

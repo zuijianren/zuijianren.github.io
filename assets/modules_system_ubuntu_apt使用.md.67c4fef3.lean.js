@@ -1,0 +1,1 @@
+import{_ as s,o as a,c as n,O as e}from"./chunks/framework.a9f788d3.js";const A=JSON.parse('{"title":"apt 配置","description":"","frontmatter":{},"headers":[],"relativePath":"modules/system/ubuntu/apt使用.md"}'),l={name:"modules/system/ubuntu/apt使用.md"},t=e("",7),p=[t];function o(r,c,i,u,C,y){return a(),n("div",null,p)}const d=s(l,[["render",o]]);export{A as __pageData,d as default};
