@@ -1,0 +1,1 @@
+import{_ as s,o as a,c as n,O as l}from"./chunks/framework.a9f788d3.js";const F=JSON.parse('{"title":"nacos","description":"","frontmatter":{},"headers":[],"relativePath":"modules/java/框架/nacos.md"}'),o={name:"modules/java/框架/nacos.md"},p=l("",4),t=[p];function e(c,r,C,y,D,A){return a(),n("div",null,t)}const d=s(o,[["render",e]]);export{F as __pageData,d as default};
