@@ -1,0 +1,1 @@
+import{_ as s,o as l,c as n,O as a}from"./chunks/framework.a9f788d3.js";const g=JSON.parse('{"title":"logback","description":"","frontmatter":{},"headers":[],"relativePath":"modules/java/其他/日志.md"}'),o={name:"modules/java/其他/日志.md"},p=a("",23),t=[p];function e(c,r,D,y,F,i){return l(),n("div",null,t)}const d=s(o,[["render",e]]);export{g as __pageData,d as default};

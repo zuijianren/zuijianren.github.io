@@ -1,0 +1,1 @@
+import{_ as s,o as a,c as o,O as n}from"./chunks/framework.a9f788d3.js";const C=JSON.parse('{"title":"jpa","description":"","frontmatter":{},"headers":[],"relativePath":"modules/java/框架/jpa.md"}'),l={name:"modules/java/框架/jpa.md"},p=n("",3),t=[p];function e(c,r,D,F,y,A){return a(),o("div",null,t)}const d=s(l,[["render",e]]);export{C as __pageData,d as default};
