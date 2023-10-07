@@ -1,1 +1,0 @@
-import{_ as e,o as a,c as t,O as o}from"./chunks/framework.a9f788d3.js";const m=JSON.parse('{"title":"Idea使用技巧","description":"","frontmatter":{},"headers":[],"relativePath":"modules/utils/idea使用技巧.md"}'),i={name:"modules/utils/idea使用技巧.md"},r=o("",4),s=[r];function d(l,n,_,c,h,u){return a(),t("div",null,s)}const f=e(i,[["render",d]]);export{m as __pageData,f as default};

@@ -1,0 +1,1 @@
+import{_ as s,o as a,c as l,O as n}from"./chunks/framework.a9f788d3.js";const d=JSON.parse('{"title":"sentinel","description":"","frontmatter":{},"headers":[],"relativePath":"modules/java/框架/sentinel.md"}'),o={name:"modules/java/框架/sentinel.md"},e=n("",64),t=[e];function p(c,r,y,D,i,F){return a(),l("div",null,t)}const C=s(o,[["render",p]]);export{d as __pageData,C as default};

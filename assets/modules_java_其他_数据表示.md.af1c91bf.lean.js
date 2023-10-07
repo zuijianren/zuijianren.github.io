@@ -1,0 +1,1 @@
+import{_ as a,o as s,c as t,O as e}from"./chunks/framework.a9f788d3.js";const C=JSON.parse('{"title":"数据表示","description":"","frontmatter":{},"headers":[],"relativePath":"modules/java/其他/数据表示.md"}'),l={name:"modules/java/其他/数据表示.md"},n=e("",53),o=[n];function p(r,i,c,d,h,u){return s(),t("div",null,o)}const A=a(l,[["render",p]]);export{C as __pageData,A as default};
